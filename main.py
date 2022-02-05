@@ -14,6 +14,7 @@ driver.maximize_window()
 cookie = driver.find_element(By.ID, "bigCookie")
 clicks = 500
 while clicks != 0:
+    clicks += 50
     for i in range(clicks):
         cookie.click()
     end = False
